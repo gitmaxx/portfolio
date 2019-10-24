@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+</head>
+<body>
+ <header class="header">
+    <div class="header_grid">
+        <img src="assets/images/photo.jpg" class="header--photo">
+        <p class="header--name">Akulinichev Maxim</p>
+        <a class="header--github_link" href="https://github.com/gitmaxx">https://github.com/gitmaxx</a>
+        <a class="header--facebook_link" href="https://www.facebook.com/maksim.akulinichev">https://www.facebook.com/maksim.akulinichev</a>
+    </div>
+ </header>
+ <main>
+
+        <div class="panel">
+                
+                <details>
+                    <summary>
+                           <p class="titleName">Education</p>
+                    </summary>
+                    <div class="content">
+                        <p>Very, very good education</p>
+                    </div>
+                </details> 
+        </div>  
+
+    <div class="slider">
+        <div class="control_panel control_panel-left">
+            &lt;
+        </div>
+        <div class="slides_wrapper">
+            <div class="slide slide-active" id="1">
+                <div class="slide_wrapper">
+                    <div class="slide_description">
+                        <p class="slide_description--header">theyalow</p>
+                        <p class="slide_description--list">Project with birds</p> 
+                    </div>
+                    <div class="slide_image">
+                        <img src="assets/images/yalow.png" alt="project">
+                    </div>
+                </div>
+            </div>
+       
+            <div class="slide" id="2">
+                <div class="slide_wrapper">
+                    <div class="slide_description">
+                        <p class="slide_description--header">repair-design-project</p>
+                        <p class="slide_description--list">No birds at all :(</p>
+                    </div>
+                    <div class="slide_image">
+                        <img src="assets/images/repair.png" alt="project">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="control_panel control_panel-right">
+            &gt;
+        </div>
+    </div>
+   
+
+ </main>
+
+ <script src="script.js"></script>
+</body>
+</html>

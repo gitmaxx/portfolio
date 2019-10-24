@@ -1,0 +1,28 @@
+.button {
+  display: block;
+  width: 100px;
+  height: 40px;
+  font-size: 24px;
+  text-align: center;
+  border: 1px solid black;
+  position: absolute;
+  right: -30px;
+}
+
+.button-device {
+  bottom: 120px;
+}
+
+.button-back {
+  bottom: 60px;
+}
+
+.button-hidden {
+  display: none;
+}
+
+.wrapper {
+  position: relative;
+  display: inline-block;
+}
+/*# sourceMappingURL=projects.css.map */
