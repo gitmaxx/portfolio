@@ -1,6 +1,7 @@
 let slides = document.querySelectorAll('.slide');
 let currentSlideIndex = 0;
 let isEnabled = true;
+let isHideDescription = true;
 
 function setCurrentSlide(n) {
     currentSlideIndex = (n + slides.length) % slides.length;
@@ -177,3 +178,19 @@ let elementsforClick = document.querySelectorAll('.slide_image');
 for (let el of elementsforClick) {
     clickDetect (el);
 }
+
+document.querySelector('.description_control--image').addEventListener('touchstart', (event)=>{
+    event.preventDefault();
+    if (isHideDescription) {
+        isHideDescription = false;
+        document.querySelector('.description_control--text').textContent="Hide description";
+        document.querySelectorAll('.slide_description').forEach(element => element.classList.add('slide_description-active'));
+        document.querySelectorAll('.image--mobile').forEach(element => element.classList.remove('image--mobile-active'));
+    } else {
+        isHideDescription = true;
+        document.querySelector('.description_control--text').textContent="Show description";
+        document.querySelectorAll('.slide_description').forEach(element => element.classList.remove('slide_description-active'));
+        document.querySelectorAll('.image--mobile').forEach(element => element.classList.add('image--mobile-active'));
+    }
+
+})
