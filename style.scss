@@ -2,31 +2,58 @@
     box-sizing: border-box;
 }
 
+.image {
+    display: block;
+    &--mobile {
+        display: none;
+    }
+}
+
+.section {
+    max-width: 80rem;
+    margin: 0 auto;
+}
+
+.sn_name {
+    font-weight: 600; 
+    margin:0 10px 0 0;
+}
+
 .header_grid {
     display: grid;
     grid-template-areas: 'photo name'
                           'photo github'
                           'photo links';
-    grid-template-rows: 100px 100px 100px;                        
+    grid-template-rows: 100px 30px 120px; 
+    grid-template-columns: max-content; 
+    column-gap: 15px; 
+    margin-top:10px;                   
 
 }
 .header {
     &--name {
         grid-area: name;
+        margin-top: 15px;
+
     }
     &--github_link {
         grid-area: github;
-
+        display: flex;
+        margin:0;
     }
     &--facebook_link {
         grid-area: links;
-
+        display:flex;
+        margin: 0;
     }
     &--photo {
         grid-area: photo;
     }
 }
 
+.titlename {
+    margin: 0.5rem 0 0.5rem 0;
+}
 .slide {
     display: none;
     &-active {
@@ -82,6 +109,7 @@
 .slide_wrapper {
     display: flex;
     overflow: hidden;
+    justify-content: space-between;
 }
 
 .slide_description {
@@ -100,6 +128,7 @@
 
 .slider {
     display: flex;
+    margin-top: 15px;
 }
 
 
@@ -191,3 +220,31 @@ summary::after {
     width: 6%;
 }  
 
+
+
+@media (max-width: 375px) {
+
+    .image {
+        display: none;
+        &--mobile {
+            display: block;
+        }
+    }
+    
+    .control_panel {
+        display: none;
+    }
+
+    .slide_description {
+        display: none;
+    }
+
+    .slides_wrapper {
+        width: 100%;
+        overflow: hidden;
+        border: solid 2px black;
+        margin-left: 1px;
+        margin-right: 1px;
+    }
+
+}

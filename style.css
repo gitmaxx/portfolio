@@ -3,30 +3,63 @@
           box-sizing: border-box;
 }
 
+.image {
+  display: block;
+}
+
+.image--mobile {
+  display: none;
+}
+
+.section {
+  max-width: 80rem;
+  margin: 0 auto;
+}
+
+.sn_name {
+  font-weight: 600;
+  margin: 0 10px 0 0;
+}
+
 .header_grid {
   display: -ms-grid;
   display: grid;
       grid-template-areas: 'photo name' 'photo github' 'photo links';
-  -ms-grid-rows: 100px 100px 100px;
-      grid-template-rows: 100px 100px 100px;
+  -ms-grid-rows: 100px 30px 120px;
+      grid-template-rows: 100px 30px 120px;
+  -ms-grid-columns: max-content;
+      grid-template-columns: -webkit-max-content;
+      grid-template-columns: max-content;
+  -webkit-column-gap: 15px;
+          column-gap: 15px;
+  margin-top: 10px;
 }
 
 .header--name {
   -ms-grid-row: 1;
   -ms-grid-column: 2;
   grid-area: name;
+  margin-top: 15px;
 }
 
 .header--github_link {
   -ms-grid-row: 2;
   -ms-grid-column: 2;
   grid-area: github;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
 }
 
 .header--facebook_link {
   -ms-grid-row: 3;
   -ms-grid-column: 2;
   grid-area: links;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
 }
 
 .header--photo {
@@ -34,6 +67,10 @@
   -ms-grid-row-span: 3;
   -ms-grid-column: 1;
   grid-area: photo;
+}
+
+.titlename {
+  margin: 0.5rem 0 0.5rem 0;
 }
 
 .slide {
@@ -119,6 +156,9 @@
   display: -ms-flexbox;
   display: flex;
   overflow: hidden;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .slide_description {
@@ -139,6 +179,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-top: 15px;
 }
 
 details {
@@ -243,5 +284,27 @@ summary::after {
   bottom: 0;
   right: 0;
   width: 6%;
+}
+
+@media (max-width: 375px) {
+  .image {
+    display: none;
+  }
+  .image--mobile {
+    display: block;
+  }
+  .control_panel {
+    display: none;
+  }
+  .slide_description {
+    display: none;
+  }
+  .slides_wrapper {
+    width: 100%;
+    overflow: hidden;
+    border: solid 2px black;
+    margin-left: 1px;
+    margin-right: 1px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
