@@ -131,6 +131,7 @@
     font-size: 60px;
     cursor: pointer;
     width: 15%;
+    position: relative;
 }
 
 .slider {
@@ -138,7 +139,13 @@
     margin-top: 15px;
 }
 
-
+.direction_pointer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
 
 
 
