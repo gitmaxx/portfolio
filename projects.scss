@@ -4,6 +4,7 @@
 
 .button {
     display:block;
+    background-color: white;
     width: 100px;
     height: 40px;
     font-size: 24px;
@@ -33,6 +34,7 @@
 .frame {
 
     margin:0 auto;
+    overflow: hidden;
 }
 
 
@@ -61,5 +63,21 @@
 }
 
 
+.button {
+   
+    width: 60px;
+    height: 30px;
+    font-size: 16px;
+    right: 30px;
+    &-back {
+        bottom:30px;
+    }
+  
 
+
+}
+
+.frame {
+    overflow: scroll;
+}
 }

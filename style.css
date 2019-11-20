@@ -328,14 +328,14 @@ summary::after {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin: 15px 10px 0 0;
+    margin: 15px 15px 0 0;
   }
   .description_control--image {
     width: 24px;
     height: 24px;
   }
   .description_control--text {
-    margin: 0 10px 0 0;
+    margin: 0 15px 0 0;
     font-weight: 600;
     font-size: 16px;
   }

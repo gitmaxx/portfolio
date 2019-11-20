@@ -5,6 +5,7 @@
 
 .button {
   display: block;
+  background-color: white;
   width: 100px;
   height: 40px;
   font-size: 24px;
@@ -37,6 +38,7 @@
 
 .frame {
   margin: 0 auto;
+  overflow: hidden;
 }
 
 .button-to_mobile_375 {
@@ -53,6 +55,18 @@
   }
   .button-device {
     display: none;
+  }
+  .button {
+    width: 60px;
+    height: 30px;
+    font-size: 16px;
+    right: 30px;
+  }
+  .button-back {
+    bottom: 30px;
+  }
+  .frame {
+    overflow: scroll;
   }
 }
 /*# sourceMappingURL=projects.css.map */
