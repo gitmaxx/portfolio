@@ -10,7 +10,7 @@
     text-align: center;
     border: 1px solid black;
     position: fixed;
-    right: 30px;
+    right: 100px;
     &-device {
         bottom:120px;
     }
@@ -36,11 +36,22 @@
 }
 
 
+
+.button-to_mobile_375 {
+    right: calc(100% / 2 - 308px) 
+}
+
+
+.button-to_mobile_640 {
+    right: calc(100% / 2 - 440px) 
+}
+
+
 @media (max-width: 375px) {
 
     .wrapper {
         
-        max-width: 325px;
+        max-width: 375px;
        
         
     }
@@ -48,5 +59,7 @@
 .button-device {
     display: none;
 }
+
+
 
 }

@@ -62,7 +62,8 @@ const swipeDetect = (element) => {
     let elapsedTime = 0;
     let limitY = 100;
     let allowedTime = 500;
-    
+    let link="";
+    let project="";
 
     surface.addEventListener('mousedown', function(e) {
     
@@ -136,6 +137,22 @@ const swipeDetect = (element) => {
                     if (isEnabled) {
                         nextSlide(currentSlideIndex);
                     }
+                }
+            } else {
+                if (isEnabled)  {
+                    switch (document.querySelector(".slide-active").id) {
+                        case "1":
+                            link="projects/theyalow/index.html";
+                            project = 'theyalow';
+                            break;
+                        case "2":
+                            link="projects/repair-design-project/index.html";
+                            project = 'repair';
+                            break;  
+                    }
+                    sessionStorage.setItem("link", link );
+                    sessionStorage.setItem('project', project);
+                    document.location.href = "projects.html";
                 }
             }
         }
