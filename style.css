@@ -325,7 +325,7 @@ summary::after {
   width: 6%;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   .image {
     display: none;
   }

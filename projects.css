@@ -49,7 +49,7 @@
   right: 20%;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   .wrapper {
     max-width: 375px;
   }
