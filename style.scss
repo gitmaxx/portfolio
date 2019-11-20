@@ -131,7 +131,11 @@
         font-weight: 500;
     }
     &--list {
-        font-size: 16px;
+        padding-left: 20px;
+    }
+    &--item {
+        font-size: 20px;
+        margin-bottom: 0.5rem;
     }
 }
 
@@ -284,8 +288,13 @@ summary::after {
             
         }
         &--list {
-            font-size: 16px;
+            padding-left: 20px;
         }
+        &--item {
+            font-size: 20px;
+            margin-bottom: 0.5rem;
+        }
+        
         &-active {
             display:block;
         }
@@ -344,10 +353,14 @@ summary::after {
     &--header {
         font-size: 24px;
         font-weight: 500;
-        margin: 10px 10px;
+        margin: 10px 0 10px 0;
     }
     &--list {
-        font-size: 16px;
+        padding-left: 20px;
+    }
+    &--item {
+        font-size: 20px;
+        margin-bottom: 0.5rem;
     }
 }
 }

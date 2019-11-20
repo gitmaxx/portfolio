@@ -185,7 +185,12 @@
 }
 
 .slide_description--list {
-  font-size: 16px;
+  padding-left: 20px;
+}
+
+.slide_description--item {
+  font-size: 20px;
+  margin-bottom: 0.5rem;
 }
 
 .control_panel {
@@ -357,7 +362,11 @@ summary::after {
     font-size: 24px;
   }
   .slide_description--list {
-    font-size: 16px;
+    padding-left: 20px;
+  }
+  .slide_description--item {
+    font-size: 20px;
+    margin-bottom: 0.5rem;
   }
   .slide_description-active {
     display: block;
@@ -406,10 +415,14 @@ summary::after {
   .slide_description--header {
     font-size: 24px;
     font-weight: 500;
-    margin: 10px 10px;
+    margin: 10px 0 10px 0;
   }
   .slide_description--list {
-    font-size: 16px;
+    padding-left: 20px;
+  }
+  .slide_description--item {
+    font-size: 20px;
+    margin-bottom: 0.5rem;
   }
 }
 
