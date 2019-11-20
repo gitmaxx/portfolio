@@ -357,6 +357,15 @@ summary::after {
   .slide_description {
     display: none;
     padding: 0 10px 0 10px;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    position: absolute;
+    z-index: 10;
+    background-color: white;
+    border: 2px solid black;
   }
   .slide_description--header {
     font-size: 24px;
@@ -377,6 +386,9 @@ summary::after {
     border: solid 2px black;
     margin-left: 1px;
     margin-right: 1px;
+  }
+  .slide_wrapper {
+    position: relative;
   }
   .header--name {
     -ms-grid-row: 1;
