@@ -153,6 +153,7 @@
   width: 100%;
   overflow: hidden;
   border: solid 2px black;
+  position: relative;
 }
 
 .slide_wrapper {
