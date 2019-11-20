@@ -65,6 +65,14 @@
 .titlename {
     margin: 0.5rem 0 0.5rem 0;
 }
+
+.education_item {
+    font-size: 1.2rem;
+    margin-bottom: 0.6rem;
+}
+
+
+
 .slide {
     display: none;
     &-active {
@@ -264,6 +272,9 @@ summary::after {
         display: none;
     }
 
+
+    
+
     .description_control {
         display: flex;
         justify-content: flex-end;
@@ -408,6 +419,18 @@ summary::after {
     .titlename {
         font-size: 16px;
         margin: 0.3em 0 0.3em 0;
+    }
+
+.education_list {
+     margin: 10px 0 10px 0;
+}
+
+    .education_item {
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+    }
+    details div.content{
+        padding:0px 12px 12px 12px;
     }
 
     summary {
