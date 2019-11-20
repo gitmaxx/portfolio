@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 .button {
     display:block;
     width: 100px;
@@ -5,8 +9,8 @@
     font-size: 24px;
     text-align: center;
     border: 1px solid black;
-    position: absolute;
-    right: -30px;
+    position: fixed;
+    right: 30px;
     &-device {
         bottom:120px;
     }
@@ -19,6 +23,30 @@
 }
 
 .wrapper {
-    position:relative;
-    display: inline-block;
+    position: relative;
+    display: flex;
+    max-width: 1444px;
+    margin:0 auto;
+    
+}
+
+.frame {
+
+    margin:0 auto;
+}
+
+
+@media (max-width: 375px) {
+
+    .wrapper {
+        
+        max-width: 325px;
+       
+        
+    }
+
+.button-device {
+    display: none;
+}
+
 }

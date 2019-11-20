@@ -156,17 +156,21 @@ swipeDetect (element);
 const clickDetect = (element) => {
     let surface = element;
     let link="";
+    let project="";
     surface.addEventListener('click', function(e) {
         if (isEnabled)  {
             switch (document.querySelector(".slide-active").id) {
                 case "1":
                     link="projects/theyalow/index.html";
+                    project = 'theyalow';
                     break;
                 case "2":
                     link="projects/repair-design-project/index.html";
+                    project = 'repair';
                     break;  
             }
             sessionStorage.setItem("link", link );
+            sessionStorage.setItem('project', project);
             document.location.href = "projects.html";
         }
 
