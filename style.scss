@@ -29,9 +29,10 @@
                           'photo github'
                           'photo links';
     grid-template-rows: 100px 30px 120px; 
-    grid-template-columns: max-content; 
+    grid-template-columns: 220px auto; 
     column-gap: 15px; 
-    margin-top:10px;                   
+    margin-top:10px;
+    align-items: center;                   
 
 }
 .header {
@@ -43,15 +44,21 @@
     &--github_link {
         grid-area: github;
         display: flex;
-        margin:0;
+        margin:0 0 0 10px;
+        font-size: 24px;
     }
     &--facebook_link {
         grid-area: links;
         display:flex;
-        margin: 0;
+        margin: 0 0 0 10px;
+        font-size: 24px;
     }
     &--photo {
         grid-area: photo;
+        display: block;
+        &-mobile {
+            display: none;
+        }
     }
 }
 
@@ -296,6 +303,102 @@ summary::after {
     }
 
 
+    .header {
+        &--name {
+            grid-area: name;
+            margin-top: 15px;
+            font-size: 18px;
+    
+        }
+        &--github_link {
+            font-size: 16px;
+        }
+        &--facebook_link {
+           
+            
+            font-size: 16px;
+           
+        }
+        &--photo {
+           
+            display: none;
+            &-mobile {
+                display: block;
+            }
+        }
+    }
+
+
+
+}
+
+@media (max-width: 1024px) {
+    .slide_wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+.slide_description {
+    padding: 0 20px 0 20px;
+    &--header {
+        font-size: 24px;
+        font-weight: 500;
+        margin: 10px 10px;
+    }
+    &--list {
+        font-size: 16px;
+    }
+}
 }
 
 
+@media (max-width: 640px) {
+  
+
+    .header {
+        &--name {
+            grid-area: name;
+            margin-top: 15px;
+            font-size: 18px;
+    
+        }
+        &--github_link {
+            font-size: 16px;
+        }
+        &--facebook_link {
+           
+            
+            font-size: 16px;
+           
+        }
+        &--photo {
+           
+            display: none;
+            &-mobile {
+                display: block;
+            }
+        }
+    }
+
+    .titlename {
+        font-size: 16px;
+        margin: 0.3em 0 0.3em 0;
+    }
+
+    summary {
+        padding: 10px 10px ;
+    }
+
+    .header_grid {
+        display: grid;
+        grid-template-areas: 'photo name'
+                              'photo github'
+                              'photo links';
+        grid-template-rows: 45px 45px 45px; 
+        grid-template-columns: 110px auto; 
+        column-gap: 10px; 
+        margin-top: 5px;                   
+    
+    }
+}

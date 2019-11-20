@@ -31,12 +31,14 @@
       grid-template-areas: 'photo name' 'photo github' 'photo links';
   -ms-grid-rows: 100px 30px 120px;
       grid-template-rows: 100px 30px 120px;
-  -ms-grid-columns: max-content;
-      grid-template-columns: -webkit-max-content;
-      grid-template-columns: max-content;
+  -ms-grid-columns: 220px auto;
+      grid-template-columns: 220px auto;
   -webkit-column-gap: 15px;
           column-gap: 15px;
   margin-top: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .header--name {
@@ -53,7 +55,8 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 0;
+  margin: 0 0 0 10px;
+  font-size: 24px;
 }
 
 .header--facebook_link {
@@ -63,7 +66,8 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 0;
+  margin: 0 0 0 10px;
+  font-size: 24px;
 }
 
 .header--photo {
@@ -71,6 +75,11 @@
   -ms-grid-row-span: 3;
   -ms-grid-column: 1;
   grid-area: photo;
+  display: block;
+}
+
+.header--photo-mobile {
+  display: none;
 }
 
 .titlename {
@@ -359,6 +368,89 @@ summary::after {
     border: solid 2px black;
     margin-left: 1px;
     margin-right: 1px;
+  }
+  .header--name {
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
+    grid-area: name;
+    margin-top: 15px;
+    font-size: 18px;
+  }
+  .header--github_link {
+    font-size: 16px;
+  }
+  .header--facebook_link {
+    font-size: 16px;
+  }
+  .header--photo {
+    display: none;
+  }
+  .header--photo-mobile {
+    display: block;
+  }
+}
+
+@media (max-width: 1024px) {
+  .slide_wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .slide_description {
+    padding: 0 20px 0 20px;
+  }
+  .slide_description--header {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 10px 10px;
+  }
+  .slide_description--list {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 640px) {
+  .header--name {
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
+    grid-area: name;
+    margin-top: 15px;
+    font-size: 18px;
+  }
+  .header--github_link {
+    font-size: 16px;
+  }
+  .header--facebook_link {
+    font-size: 16px;
+  }
+  .header--photo {
+    display: none;
+  }
+  .header--photo-mobile {
+    display: block;
+  }
+  .titlename {
+    font-size: 16px;
+    margin: 0.3em 0 0.3em 0;
+  }
+  summary {
+    padding: 10px 10px;
+  }
+  .header_grid {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: 'photo name' 'photo github' 'photo links';
+    -ms-grid-rows: 45px 45px 45px;
+        grid-template-rows: 45px 45px 45px;
+    -ms-grid-columns: 110px auto;
+        grid-template-columns: 110px auto;
+    -webkit-column-gap: 10px;
+            column-gap: 10px;
+    margin-top: 5px;
   }
 }
 /*# sourceMappingURL=style.css.map */
