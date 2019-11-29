@@ -1,2 +1,0 @@
-# theyalow
-Homework: theyalow

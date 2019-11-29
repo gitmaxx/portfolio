@@ -1,524 +1,660 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Repair&Design</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Repair&Design</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="body_wrapper">
+  <div class="body_wrapper">
     <header class="header">
         <h1 class="header--logo">IC "Repair Design Project"</h1>
+        <div class="flex_divider"></div>
         <nav class="navbar">
-            <ul class="navbar_list">
-                <li class="navbar_list--item"><a class="navbar_list--link">Home</a></li>
-                <li class="navbar_list--item"><a class="navbar_list--link">Projects</a></li>
-                <li class="navbar_list--item"><a class="navbar_list--link">Measurement</a></li>
-                <li class="navbar_list--item"><a class="navbar_list--link">Team</a></li>
-                <li class="navbar_list--item"><a class="navbar_list--link">Reviews</a></li>
-                <li class="navbar_list--item"><a class="navbar_list--link">Contacts</a></li>    
-            </ul>
+          <ul class="navbar_list">
+            <li class="navbar_list--item"><a class="navbar_list--link">Home</a></li>
+            <li class="navbar_list--item"><a class="navbar_list--link">Projects</a></li>
+            <li class="navbar_list--item"><a class="navbar_list--link">Measurement</a></li>
+            <li class="navbar_list--item"><a class="navbar_list--link">Team</a></li>
+            <li class="navbar_list--item"><a class="navbar_list--link">Reviews</a></li>
+            <li class="navbar_list--item"><a class="navbar_list--link">Contacts</a></li>    
+          </ul>
         </nav>
-        <div class="phone_number"><a class="phone_number--link" >+7(928)768-32-39</a></div>
-        <button type="button" class="button header--button">Request A Call</button>
+      <div class="phone_number">
+        <a class="phone_number--link" href="tel:+79287683239">+7(928)768-32-39</a>
+      </div>
+      <button type="button" class="button header--button">Request A Call</button>
     </header>
-        
     <main>
-
-        <section class="section first_section">
-            <div class="sidebar"><p class="sidebar--text">Instagram</p></div>
-            <div class="main_image">
-                <div class="main_content">
-                    <h2 class="main_content--header">TURNKEY REPAIR IN THE CITY OF ROSTOV-ON-DON</h2>
-                    <p class="main_content--text">Get ready-made turnkey repairs on time <br> with work time saving up to 45 days and 20% from <br> cost of materials due to the organization of work</p>
-                    <button type="button" class="button main_content--button">CALCULATE THE COST</button>
-                    <button type="button" class="button main_content--button main_content--button-transparent">SUBMIT YOUR APPLICATION</button>
-                </div>
-                <div></div>
+      <section class="section main_section">
+        <div class="sidebar">
+          <a href="https://www.instagram.com" class="sidebar--text">Instagram</a>
+        </div>
+        <div class="main_image">
+          <div class="main_content">
+            <h2 class="main_content--header">TURNKEY REPAIR IN THE CITY OF ROSTOV-ON-DON</h2>
+            <p class="main_content--text main_content--text-desktop">Get ready-made turnkey repairs on time <br> with work time saving up to 45 days and 20% from <br> cost of materials due to the organization of work</p>
+            <p class="main_content--text main_content--text-mobile">Get ready-made turnkey repairs on time with work time saving up to 45 days and 20% from cost of materials due to the organization of work</p>
+            <button type="button" class="button main_content--button">CALCULATE THE COST</button>
+            <button type="button" class="button main_content--button main_content--button-transparent">SUBMIT YOUR APPLICATION</button>
+          </div>
+          <div class="scroll">
+            <p class="scroll--text" >Scroll down</p>
+            <div class="scroll_icon">
+              <svg class="scroll_icon--svg" width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="14.4999" cy="14.5" r="13.75" stroke-width="1.5"/>
+                <path d="M18.7213 13.1271L14.4081 17.4092L10.0949 13.1271" stroke-width="1.5"/>
+              </svg>
+            </div>          
+          </div>
+        </div>
+      </section>
+      <section class="section section_projects">
+        <div class="slider">
+          <div class="slider_header">
+            <h2 class="slider_header--header slider_header_projects">Completed projects</h2>
+            <p class="slider_header--text">Only a small part of the work performed by our company is presented on the site. For 14 years on in the construction market we have made happy more than 1000 families</p>
+          </div>  
+          <div class="slider--controls section_projects_slider_controls">
+            <a class="slider--control slider--control-prev" href="#" role="button">
+              <svg width="42" height="14" viewBox="0 0 42 14" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M6.63807 13.6019L2.29917e-05 6.96389L6.63807 0.325844L7.58563 1.27341L1.89516 6.96389L7.58563 12.6544L6.63807 13.6019Z"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.947579 6.29396L41.4556 6.29397L41.4556 7.63403L0.947578 7.63403L0.947579 6.29396Z"/>
+              </svg>
+            </a>
+            <ol class="slider--indicators">
+              <li class="slider--indicator slider--indicator-active" data-slide-to="0"></li>
+              <li class="slider--indicator" data-slide-to="1"></li>
+              <li class="slider--indicator" data-slide-to="2"></li>
+            </ol>
+            <a class="slider--control slider--control-next" href="#" role="button">
+              <svg width="42" height="14" viewBox="0 0 42 14" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M35.362 0.325806L42 6.96385L35.362 13.6019L34.4144 12.6543L40.1049 6.96385L34.4144 1.27337L35.362 0.325806Z"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M41.0524 7.63364L0.544433 7.63364L0.544434 6.29358L41.0524 6.29358L41.0524 7.63364Z"/>
+              </svg>     
+            </a>
+          </div>
+          <div class="slider_descriptions">
+            <div class="slider_descriptor">
+              <p class="slider_descriptor--head">City:</p>
+              <p class="slider_descriptor--text">Rostov-on-Don<br> LCD Admiral</p>
             </div>
-        </section>
-        <section class="section section_projects">
-            <div class="slider">
-                
-                    <div class="slider_header">
-                            <h2 class="slider_header--header">Completed project</h2>
-                            
-                            <p class="slider_header--text">Only a small part of the work performed by our company is presented on the site. For 14 years on in the construction market we have made happy more than 1000 families</p>
-                    </div>
-                
-                <div class="slider--controls section_projects_slider_controls">
-                        <a class="slider--control slider--control-prev" href="#" role="button">
-                                <img src='assets/icons/leftarrow.svg'>
-                        </a>
-                        <ol class="slider--indicators">
-                                <li class="slider--indicator slider--indicator-active" data-slide-to="0"></li>
-                                <li class="slider--indicator" data-slide-to="1"></li>
-                                <li class="slider--indicator" data-slide-to="2"></li>
-                              </ol>
-                              <a class="slider--control slider--control-next" href="#" role="button">
-                                    <img src='assets/icons/rightarrow.svg'>  
-                              </a>
-
-                </div>
-
-                    <div class="slider_descriptions">
-                            <div class="slider_descriptor">
-                                <p class="slider_descriptor--head">City:</p>
-                                <p class="slider_descriptor--text">Rostov-on-Don<br> LCD Admiral</p>
-                            </div>
-                            <div class="slider_descriptor">
-                                    <p class="slider_descriptor--head">Apartment Area:</p>
-                                    <p class="slider_descriptor--text">81 m2</p>
-                            </div>
-                            <div class="slider_descriptor">
-                                    <p class="slider_descriptor--head">Repair Time:</p>
-                                    <p class="slider_descriptor--text">3.5 months</p>
-                            </div>
-                            <div class="slider_descriptor">
-                                <p class="slider_descriptor--head">Repair Cost</p>
-                                <p class="slider_descriptor--text">Upon request</p>
-                            </div>
-
-                    </div>
-
-                    <div class="slider_items_headings">
-                            <ol class="slider_items_headings_list">
-                                    <li class="slider_items_headings_list--item"><a class="slider_items_headings_list--link">Rostov-on-Don, Admiral</a></li>
-                                    <li class="slider_items_headings_list--item"><a class="slider_items_headings_list--link">Sochi Thieves</a></li>
-                                    <li class="slider_items_headings_list--item"><a class="slider_items_headings_list--link">Rostov-on-Don Patriotic</a></li> 
-                            </ol>
-
-                    </div>
-                    
-
-
-                    <div class="slider--items">
-                      <div class="slider--item slider--item-active">
-                            <img src='assets/images/admiral.png' class="slider--image">
-                            <img src='assets/images/admiral_mobile.png' class="slider--image-mobile">
-                      </div>
-                      <div class="slider--item">
-                            <img src='assets/images/sochi.png' class="slider--image">
-                      </div>
-                      
-                    </div>
-                    
+            <div class="slider_descriptor">
+              <p class="slider_descriptor--head">Apartment Area:</p>
+              <p class="slider_descriptor--text">81 m2</p>
             </div>
-        </section>
-        <section class="section section_control">
-            <h3 class="section_header section_control--header">online control</h3>
-            <img src='assets/icons/camera.svg' class="section_control--icon">
-            <div class="section_control--video">
-                <iframe width="817" height="434" src="https://www.youtube.com/embed/b5W-hMIxGVI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="slider_descriptor">
+              <p class="slider_descriptor--head">Repair Time:</p>
+              <p class="slider_descriptor--text">3.5 months</p>
             </div>
-            <div class="section_control--video-mobile">
-                    <iframe width="340" height="207" src="https://www.youtube.com/embed/b5W-hMIxGVI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-            <img src='assets/icons/divider.svg' class="section_control--divider">
-            <p class="section_content section_control--content">
-                At each facility, a camera is installed that broadcasts the progress of work on the clock.<br>
-                At any time, you can go to our website and monitor the progress of work in your<br>apartment. 
-                You can watch the live broadcast from one of our facilities!<br> 
-                Leave a request below and you will receive a link to the broadcast.
-            </p>
-            <form action="" method="post" class="section_control_form">
-                <div class="section_control_form--field">
-                  <label class="section_control_form--label" for="name">Name</label>
-                  <input class="section_control_form--input" type="text" id="name" name="user_name" placeholder="What is your name:">
-                </div>
-                <div class="section_control_form--field">
-                  <label class="section_control_form--label" for="phone">Phone</label>
-                  <input class="section_control_form--input" type="tel" id="phone" name="user_phone" placeholder="Your phone number:">
-                </div>
-                <div class="section_control_form--button">
-                    <button type="submit"  class="button section_control_form--button">Submit</button>
-                </div>
-                <div class="section_control_form--checkbox">
-                    <input type="checkbox" id="agr" name="user_agr" checked>
-                    <label for="name">I agree to the processing of personal data</label>
-                </div>
-              </form>
-        </section>
-        <section class="section section_repair">
-            <h3 class="section_header section_repair--header">types of repair</h3>
-            <img src='assets/icons/hammer.svg' class="section_repair--icon">
-            <div class="tiles_block section_repair--tiles">
-                <div class="tile">
-                    <img src='assets/images/wall.png' class="tile--image">
-                    <img src='assets/images/wall_mobile.png' class="tile--image-mobile">
-                    <div class="tile_content">
-                        <p class="tile_content--header">Redecorating</p>
-                        <ul class="tile_content--list">
-                            <li class="tile_content--item">Dismantling of old coatings</li>
-                            <li class="tile_content--item">Wallpapering</li>
-                            <li class="tile_content--item">Painting walls and ceilings</li>
-                            <li class="tile_content--item">Laying flooring</li>
-                            <li class="tile_content--item">Replacing plumbing</li>
-                            <li class="tile_content--item">Replacing sockets and switches</li>
-                            <li class="tile_content--item">Replacing door</li>    
-                        </ul>
-                        <p class="tile_content--footer tile_content--footer-narrow">From 900 RUB/M2</p>
-                    </div>
-                </div>
-                <div class="tile">
-                    <img src='assets/images/room.png' class="tile--image">
-                    <img src='assets/images/room_mobile.png' class="tile--image-mobile">
-                     <div class="tile_content">
-                        <p class="tile_content--header">Overhaul</p>
-                        <ul class="tile_content--list">
-                            <li class="tile_content--item">Dismantling of old coatings</li>
-                            <li class="tile_content--item">Wallpapering</li>
-                            <li class="tile_content--item">Painting walls and ceilings</li>
-                            <li class="tile_content--item">Laying flooring</li>
-                            <li class="tile_content--item">Replacing plumbing</li>
-                            <li class="tile_content--item">Replacing sockets and switches</li>
-                            <li class="tile_content--item">Replacing door</li>    
-                        </ul>
-                        <p class="tile_content--footer tile_content--footer-narrow"">From 1800 RUB/M2</p>
-                    </div>
-                </div>
-                <div class="tile">
-                    <img src='assets/images/lamp.png' class="tile--image">
-                    <img src='assets/images/lamp_mobile.png' class="tile--image-mobile">
-                    <div class="tile_content">
-                        <p class="tile_content--header">Designer Repair</p>
-                        <ul class="tile_content--list">
-                            <li class="tile_content--item">Dismantling of old coatings</li>
-                            <li class="tile_content--item">Wallpapering</li>
-                            <li class="tile_content--item">Painting walls and ceilings</li>
-                            <li class="tile_content--item">Laying flooring</li>
-                            <li class="tile_content--item">Replacing plumbing</li>
-                            <li class="tile_content--item">Replacing sockets and switches</li>
-                            <li class="tile_content--item">Replacing door</li>      
-                        </ul>
-                        <p class="tile_content--footer tile_content--footer-narrow"">From 4000 RUB/M2</p>    
-                    </div>
-                </div>
-                
-        </section>
-        <section class="section section_request">
-            
-            <div class="bbb"> 
-                <div class="circle"></div>
-                <div class="circle_item circle_item-first">01</div>
-                <div class="circle_item circle_item-second">02</div>
-                <div class="circle_item circle_item-third">03</div>
-                <div class="circle_item circle_item-fourth">04</div>
+            <div class="slider_descriptor">
+              <p class="slider_descriptor--head">Repair Cost</p>
+              <p class="slider_descriptor--text">Upon request</p>
             </div>
-            <div class="form_wrapper">
-                <form action="" method="post" class="form">
-                    <p class="form--header">
-                        Leave a request for free departure of the measurer
-                    </p>
-                    <div class="form--field">
-                      <label class="form--label" for="name">Name</label>
-                      <input class="form--input" type="text" id="name" name="user_name" placeholder="What is your name:">
-                    </div>
-                    <div class="form--field">
-                      <label class="form--label" for="phone">Phone</label>
-                      <input class="form--input" type="tel" id="phone" name="user_phone" placeholder="Your phone number:">
-                    </div>
-                    <div class="form--field">
-                        <label class="form--label" for="email">Email</label>
-                        <input class="form--input" type="email" id="email" name="user_email" placeholder="Your e-mail:">
-                    </div>
-                    <div class="form--checkbox">
-                        <input type="checkbox" id="agr" name="user_agr" checked>
-                        <label for="name">I agree to the processing of personal data</label>
-                    </div>
-                    <button type="submit"  class="button form--button">Call the measurer</button>
-                  </form>
+          </div>
+          <div class="slider_items_headings">
+            <ol class="slider_items_headings_list">
+              <li class="slider_items_headings_list--item">
+                <a class="slider_items_headings_list--link slider_items_headings_list--link-active">Rostov-on-Don, Admiral</a>
+              </li>
+              <li class="slider_items_headings_list--item">
+                <a class="slider_items_headings_list--link">Sochi Thieves</a>
+              </li>
+              <li class="slider_items_headings_list--item">
+                <a class="slider_items_headings_list--link">Rostov-on-Don Patriotic</a>
+              </li> 
+            </ol>
+          </div>
+          <div class="slider--items">
+            <div class="slider_play slider_play-desktop">
+              <svg class="slider_play--svg" width="85" height="85" viewBox="0 0 85 85" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="42.3591" cy="42.3605" r="27.3586""/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M39.9792 34.0342L48.3066 42.3607L39.9792 50.6872L38.7905 49.4986L45.9291 42.3607L38.7905 35.2228L39.9792 34.0342Z" fill="white" stroke="white" stroke-width="0.75"/>
+              </svg>        
             </div>
-        </section>
-        <section class="section section_fantasies">
-           <div class="fantasies_wrapper">
-                 <div class="fantasies_content">
-                    <p class="section_header section_fantasies--header">We realize your <br> wildest fantasies</p>
-                    <ul class="fant_list">
-                        <li class="fant_list--item"><a class="fant_list--link">American classic</a></li>
-                        <li class="fant_list--item"><a class="fant_list--link">Empire</a></li>
-                        <li class="fant_list--item"><a class="fant_list--link">Classical</a></li>
-                        <li class="fant_list--item"><a class="fant_list--link">Loft</a></li>
-                        <li class="fant_list--item"><a class="fant_list--link">Minimalism</a></li>
-                        <li class="fant_list--item"><a class="fant_list--link">Provence</a></li>
-                        <li class="fant_list--item"><a class="fant_list--link">Romanticism</a></li>  
-                        <li class="fant_list--item"><a class="fant_list--link">Scandinavian Style</a></li>  
-                        <li class="fant_list--item"><a class="fant_list--link">Mediterranean style</a></li>  
-                        <li class="fant_list--item"><a class="fant_list--link">High Tech</a></li>  
-                        <li class="fant_list--item"><a class="fant_list--link">Eclecticism</a></li>      
-                    </ul>
-                 </div>
-                <div class="fantasies_images_left">
-                    <img src='assets/images/clock.png' class="fantasies_image_left_top">
-                    <img src='assets/images/tv.png' class="fantasies_image_left_bottom">
-                </div>
-                <div class="fantasies_images_right">
-                        <img src='assets/images/sofa.png' class="fantasies_image_right_top">
-                        <img src='assets/images/table.png' class="fantasies_image_right_bottom">
-                </div>
+            <div class="slider_play slider_play-mobile slider_play-mobile-left">
+              <svg class="slider_play--svg" width="36" height="36" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="17.9999" cy="17.9999" r="18.0001" transform="rotate(-180 17.9999 17.9999)""/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5657 23.478L14.0869 17.9997L19.5657 12.5215L20.3478 13.3035L15.6511 17.9997L20.3478 22.696L19.5657 23.478Z" fill="white" stroke="white" stroke-width="0.75"/>
+              </svg>               
             </div>
-        </section>
-        <section  class="section section_design">
-           <h3 class="section_header section_design--header">design project</h3>
-           <img src='assets/icons/pencil.svg' class="section_design--icon">
-           <p class="section_content section_design--content">Design project not only helps to make the repair of your apartment more modern, <br> but also significantly reduces the cost of materials and reduces the time of repair work.</p>
-            <div class="tiles_block section_design--tiles">
-                <div class="tile">
-                    <img src='assets/images/wall_dark.png' class="tile--image">
-                    <img src='assets/images/wall_dark_mobile.png' class="tile--image-mobile">
-                    <div class="tile_content">
-                            <p class="tile_content--header">Mini</p>
-                            <ul class="tile_content--list">
-                                <li class="tile_content--item">Measurement drawing</li>
-                                <li class="tile_content--item">Redevelopment</li>
-                                <li class="tile_content--item">Layout of furniture</li>
-                                <li class="tile_content--item">Plumbing plan. equipment</li>   
-                            </ul>
-                            <p class="tile_content--footer tile_content--footer-narrow"">150 RUB/M2</p>
-                    </div>
-                </div>
-                <div  class="tile">
-                    <img src='assets/images/lamp_dark.png' class="tile--image">
-                    <img src='assets/images/lamp_dark_mobile.png' class="tile--image-mobile">
-                    <div class="tile_content">
-                            <p class="tile_content--header">Standard</p>
-                            <ul class="tile_content--list">
-                                <li class="tile_content--item">Measurement drawing</li>
-                                <li class="tile_content--item">Redevelopment</li>
-                                <li class="tile_content--item">Layout of furniture</li>
-                                <li class="tile_content--item">Plan of ceilings</li>
-                                <li class="tile_content--item">Floor Plan</li>
-                                <li class="tile_content--item">Electricians plan</li>
-                                <li class="tile_content--item">Lighting plan</li>    
-                            </ul>
-                            <p class="tile_content--footer tile_content--footer-narrow"">400 RUB/M2</p>
-                        </div>
-                </div>
-                <div  class="tile">
-                    <img src='assets/images/room_dark.png' class="tile--image">
-                    <img src='assets/images/room_dark_mobile.png' class="tile--image-mobile">
-                    <div class="tile_content">
-                            <p class="tile_content--header">Full</p>
-                            <ul class="tile_content--list">
-                                <li class="tile_content--item">Measurement drawing</li>
-                                <li class="tile_content--item">Redevelopment</li>
-                                <li class="tile_content--item">Layout of furniture</li>
-                                <li class="tile_content--item">Plan of ceilings</li>
-                                <li class="tile_content--item">Floor Plan</li>
-                                <li class="tile_content--item">Electricians plan</li>
-                                <li class="tile_content--item">Lighting plan</li>
-                                <li class="tile_content--item">Wall reamers</li>
-                                <li class="tile_content--item">3D visualization</li>
-                                <li class="tile_content--item">Bill of materials</li>
-                                <li class="tile_content--item">Departure for a selection of materials</li>
-                                <li class="tile_content--item">Furniture selection</li>    
-                            </ul>
-                            <p class="tile_content--footer tile_content--footer-narrow"">900 RUB/M2</p>
-                        </div>
-                </div>
-
+            <div class="slider_play slider_play-mobile slider_play-mobile-right">
+              <svg class="slider_play--svg" width="36" height="36" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="18.0001" cy="18.0001" r="18.0001"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M16.4343 12.522L21.9131 18.0003L16.4343 23.4785L15.6522 22.6965L20.3489 18.0003L15.6522 13.304L16.4343 12.522Z" fill="white" stroke="white" stroke-width="0.75"/>
+              </svg>        
             </div>
-        </section>
-        <section  class="section section_process">
-           <p class="section_process--header">How we are working</p>
-            <div class="slider_mod1">
-                <div class="slider_mod1_header">
-                     <h2 class="slider_mod1_header--header">6 steps to the goal</h2>          
-                </div>
-                <div class="slider--controls section_process_slider_controls">
-                        <a class="slider--control slider--control-prev" href="#" role="button">
-                                <img src='assets/icons/leftarrow.svg'>
-                        </a>
-                        <ol class="slider--indicators">
-                            <li class="slider--indicator slider--indicator-active" data-slide-to="0"></li>
-                            <li class="slider--indicator" data-slide-to="1"></li>
-                            <li class="slider--indicator" data-slide-to="2"></li>
-                            <li class="slider--indicator" data-slide-to="3"></li>
-                            <li class="slider--indicator" data-slide-to="4"></li>
-                            <li class="slider--indicator" data-slide-to="5"></li>
-                        </ol>
-                        <a class="slider--control slider--control-next" href="#" role="button">
-                            <img src='assets/icons/rightarrow.svg'>  
-                        </a>
-                </div>         
-                <div class="slider_mod1_descriptions">
-                    <div class="slider_mod1_descriptions--number">1/6</div>
-                    <div class="slider_mod1_descriptions--header">Departure for <br> measurements premises</div>
-                    <p class="slider_mod1_descriptions--content">After your call, we go to you to consult and measure the premises of your apartment. During our meeting, you can ask absolutely any number of questions. An <br> appraiser-appraiser leaves to measure the room.</p>
-                    <p class="slider_mod1_descriptions--content"> He will advise you on the issues of repair technology, apartment design, terms of repair of the apartment as a whole and its individual stages.</p>
-                </div>
-                <div class="slider_mod1_items_headings">
-                    <div class="slider_mod1_items_heading  slider_mod1_items_heading-active">
-                        <p class="slider_mod1_items_heading--head">01</p>
-                        <p class="slider_mod1_items_heading--text">Departure to <br> room measurements</p>
-                    </div>
-                    <div class="slider_mod1_items_heading">
-                        <p class="slider_mod1_items_heading--head">02</p>
-                        <p class="slider_mod1_items_heading--text">Compilation <br> estimates</p>
-                    </div>
-                    <div class="slider_mod1_items_heading">
-                        <p class="slider_mod1_items_heading--head">03</p>
-                        <p class="slider_mod1_items_heading--text">Development <br>project design</p>
-                    </div>
-                    <div class="slider_mod1_items_heading">
-                        <p class="slider_mod1_items_heading--head">04</p>
-                        <p class="slider_mod1_items_heading--text">Purchasing Supplies</p>
-                    </div>
-                    <div class="slider_mod1_items_heading">
-                        <p class="slider_mod1_items_heading--head">05</p>
-                        <p class="slider_mod1_items_heading--text">Repair finishing work</p>
-                    </div>
-                    <div class="slider_mod1_items_heading">
-                        <p class="slider_mod1_items_heading--head">06</p>
-                         <p class="slider_mod1_items_heading--text">Приемка-сдача<br> работ</p>
-                    </div>
-
-                </div>
-                <div class="slider--items">
-                    <div class="slider--item slider--item-active">
-                        <img src='assets/images/man.png' class="slider--image">
-                    </div>
-                </div>
+            <div class="slider--item slider--item-active">
+              <img src='assets/images/admiral.png' class="slider--image" alt="admiral_project">
+              <img src='assets/images/admiral_mobile.png' class="slider--image-mobile" alt="admiral_project">
             </div>
-        </section>
-        <section  class="section section_team">
-            <h3 class="section_header section_team--header">Our Team</h3>
-            <img src='assets/icons/group.svg' class="section_team--icon">
-            <p class="section_content section_team--header_content">Our team has helped to become happier for more than 500 families and we are not going to stop</p>
-            <div class="tiles_block section_team--tiles">
-                <div  class="tile tile-centered">
-                    <img src='assets/images/dmitry.png' class="tile--image">
-                    <img src='assets/images/dmitry_mobile.png' class="tile--image-mobile">
-                    <div class="tile_content tile_content-adjusted">
-                        <p class="tile_content--header tile_content--header-centered">Dmitry Tulyakov</p>
-                        <ul class="tile_content--list tile_content--list-no_marks tile_content--list-centered">
-                            <li class="tile_content--item tile_content--item-large">Project manager</li>
-                        </ul>
-                        <p class="tile_content--footer tile_content--footer-small">Work Experience 8 years</p>
-                    </div>
-                </div>
-                <div  class="tile tile-centered">
-                    <img src='assets/images/larisa.png' class="tile--image">
-                    <img src='assets/images/larisa_mobile.png' class="tile--image-mobile">
-                    <div class="tile_content tile_content-adjusted">
-                        <p class="tile_content--header tile_content--header-centered">Larisa Kotlyarova</p>
-                        <ul class="tile_content--list tile_content--list-no_marks tile_content--list-centered">
-                            <li class="tile_content--item tile_content--item-large">Designer</li>
-                        </ul>
-                        <p class="tile_content--footer tile_content--footer-small">Work Experience 6 years</p>
-                    </div>
-                </div>
-                <div  class="tile tile-centered">
-                    <img src='assets/images/alexey.png' class="tile--image">
-                    <img src='assets/images/alexey_mobile.png' class="tile--image-mobile">
-                    <div class="tile_content tile_content-adjusted">
-                        <p class="tile_content--header tile_content--header-centered">Alexey Efimov</p>
-                        <ul class="tile_content--list tile_content--list-no_marks tile_content--list-centered">
-                            <li class="tile_content--item tile_content--item-large">Foreman</li>
-                        </ul>
-                        <p class="tile_content--footer tile_content--footer-small">Work Experience 12 years</p>
-                    </div>
-                </div>
+            <div class="slider--item">
+              <img src='assets/images/sochi.png' class="slider--image" alt="sochi_project">
             </div>
-            <img src='assets/icons/divider.svg' class="section_team--divider">
-            <p class="section_content section_team--content">Each employee of our company is a qualified full-time specialist with work experience of 6 years. <br> We do not have laborers and guest workers, each employee carries out work corresponding to his specialty.</p>
-        </section>
-        <section  class="section section_clients">
-            <h3 class="section_header section_clients--header">our clients</h3>
-            <img src='assets/icons/handshake.svg' class="section_clients--icon">
-            <p class="section_content section_clients--content">80% of our customers recommend us to their friends and family.</p>
-            <div class="tiles_block section_clients--tiles">
-                <div class="tile ">
-                    <img src='assets/images/fedosova.png' class="section_clients--photo">
-                    <div class="tile_content tile_content-top">
-                        <p class="tile_content--header tile_content--header-right">Fedosova Maria Konstantinovna</p>
-                        <ul class="tile_content--list tile_content--list-no_marks">
-                            <li class="tile_content--item">I want to thank the guys for their work. We put your shower part in repair. I am very grateful that I referred to the repair as to my own. Great thanks i express the project to georgia for its professionalism and approach. The repair process was turned out in terms, faster than anticipated. Team mobile and professional. Works performed qualitatively without comments. Quality satisfied. Prices democratic. I recommend these masters.</li>
-                        </ul>
-                        <p class="tile_content--footer">40 M2 48 Days</p>
-                    </div>
-                </div>
-                <div class="tile">
-                    <img src='assets/images/afanasyev.png' class="section_clients--photo">
-                    <div class="tile_content tile_content-top">
-                            <p class="tile_content--header tile_content--header-right">Afanasyev Sergey Alexandrovich</p>
-                            <ul class="tile_content--list tile_content--list-no_marks">
-                                <li class="tile_content--item">I want to thank the guys for their work. We put your shower part in repair. I am very grateful that I referred to the repair as to my own. Great thanks i express the project to georgia for its professionalism and approach. The repair process was turned out in terms, faster than anticipated. Team mobile and professional. Works performed qualitatively without comments. Quality satisfied. Prices democratic. I recommend these masters.</li>
-                            </ul>
-                            <p class="tile_content--footer">90 M2 128 Days</p>
-                    </div>
-                </div>
-                <div class="tile">
-                    <img src='assets/images/kiriev.png' class="section_clients--photo">
-                    <div class="tile_content tile_content-top">
-                        <p class="tile_content--header tile_content--header-right">Kiriev Egor <br> Leonidovich</p>
-                        <ul class="tile_content--list tile_content--list-no_marks section_clients--tile_content_list">
-                            <li class="tile_content--item">I want to thank the guys for their work. We put your shower part in repair. I am very grateful that I referred to the repair as to my own. Great thanks i express the project to georgia for its professionalism and approach. The repair process was turned out in terms, faster than anticipated. Team mobile and professional. Works performed qualitatively without comments. Quality satisfied. Prices democratic. I recommend these masters.</li>
-                        </ul>
-                        <p class="tile_content--footer">56 M2 86 Days</p>
-                    </div>
-                </div>
+          </div>       
+        </div>
+      </section>
+      <section class="section section_control">
+        <h3 class="section_header section_control--header">online control</h3>
+        <img src='assets/icons/camera.svg' class="section_control--icon" alt="camera_icon">
+        <div class="section_control--video">
+          <iframe width="817" height="434" src="https://www.youtube.com/embed/b5W-hMIxGVI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="section_control--video-mobile">
+          <iframe width="340" height="207" src="https://www.youtube.com/embed/b5W-hMIxGVI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <img src='assets/icons/divider.svg' class="section_control--divider" alt="divider_icon">
+        <p class="section_content section_control--content section_control--content-desktop">
+          At each facility, a camera is installed that broadcasts the progress of work on the clock.<br>
+          At any time, you can go to our website and monitor the progress of work in your<br>apartment. 
+          You can watch the live broadcast from one of our facilities!<br> 
+          Leave a request below and you will receive a link to the broadcast.
+        </p>
+        <p class="section_content section_control--content section_control--content-mobile">
+          At each facility, a camera is installed that broadcasts the progress of work on the clock.
+          At any time, you can go to our website and monitor the progress of work in your apartment. 
+          You can watch the live broadcast from one of our facilities!
+          Leave a request below and you will receive a link to the broadcast.
+        </p>
+        <form action="" method="post" class="section_control_form">
+          <div class="section_control_form--field">
+            <label class="section_control_form--label" for="name">Name</label>
+            <input class="section_control_form--input" type="text" required pattern='/^[a-zA-Z]+(([',. -][a-zA-Z ])?[a-zA-Z]*)*$/g' id="name" name="user_name" placeholder="What is your name:">
+          </div>
+          <div class="section_control_form--field">
+            <label class="section_control_form--label" for="phone">Phone</label>
+            <input class="section_control_form--input" type="tel" required pattern='[\+]\d{11}' id="phone" name="user_phone" placeholder="Your phone number:">
+          </div>
+          <div class="section_control_form--button">
+            <button type="submit"  class="button section_control_form--button">Submit</button>
+          </div>
+          <div class="section_control_form--checkbox">
+            <label class="check" for="agr">
+              <input class="check_input" type="checkbox" id="agr" name="user_agr" checked required>
+              <span class="checkbox"></span>
+              I agree to the processing of personal data
+            </label>
+          </div>
+        </form>
+      </section>
+      <section class="section section_repair">
+        <h3 class="section_header section_repair--header">types of repair</h3>
+        <img src='assets/icons/hammer.svg' class="section_repair--icon" alt="hammer_icon">
+        <div class="tiles_block section_repair--tiles">
+          <div class="tile">
+            <img src='assets/images/wall.png' class="tile--image scalable" alt="wall>
+            <img src='assets/images/wall_mobile.png' class="tile--image-mobile" alt="wall">
+            <div class="tile_content">
+              <p class="tile_content--header">Redecorating</p>
+              <ul class="tile_content--list">
+                <li class="tile_content--item">Dismantling of old coatings</li>
+                <li class="tile_content--item">Wallpapering</li>
+                <li class="tile_content--item">Painting walls and ceilings</li>
+                <li class="tile_content--item">Laying flooring</li>
+                <li class="tile_content--item">Replacing plumbing</li>
+                <li class="tile_content--item">Replacing sockets and switches</li>
+                <li class="tile_content--item">Replacing door</li>    
+              </ul>
+              <p class="tile_content--footer tile_content--footer-narrow">From 900 RUB/M2</p>
             </div>
-        </section>
-        <section  class="section section_question">
-            <form action="" method="post" class="form form-wide_centered form-lighter">
-                <p class="form--header form--header-uppercase">
-                    Have any questions?
-                </p>
-                <div class="form_fields">
-                <div class="form--field">
-                  <label class="form--label" for="name">Name</label>
-                  <input class="form--input form--input-wide" type="text" id="name" name="user_name" placeholder="What is your name:">
-                </div>
-                <div class="form--field">
-                  <label class="form--label" for="phone">Phone</label>
-                  <input class="form--input form--input-wide" type="tel" id="phone" name="user_phone" placeholder="Your phone number:">
-                </div>
-                </div>
-                <div class="form--field form--field-left_aligned">
-                    <label class="form--label" for="quest">Question</label>
-                    <input class="form--input" type="text" id="quest" name="user_quest" placeholder="I want to know:">
-                </div>
-                
-                <div class="form--checkbox">
-                    <input type="checkbox" id="agr" name="user_agr" checked>
-                    <label for="name">I agree to the processing of personal data</label>
-                </div>
-                <button type="submit"  class="button form--button form--button-centered">Submit</button>
-              </form>
-        </section>
-        <section  class="section section_address">
-                <div class="section_address--map-mobile">
-                        <img src='assets/images/map_mobile.png'>
-                </div>
-            <address class="section_address--content">Rostov-on-Don, Nansen St., 239 Shopping Center Decorum Tel. +7 (928) 768 32 29</address>
-            <div class="section_address_icons">
-            <img src='assets/icons/mail.svg' class="section_address--icon">
-            <img src='assets/icons/instagram.svg' class="section_address--icon">
+          </div>
+          <div class="tile">
+            <img src='assets/images/room.png' class="tile--image scalable" alt="room">
+            <img src='assets/images/room_mobile.png' class="tile--image-mobile" alt="room">
+            <div class="tile_content">
+              <p class="tile_content--header">Overhaul</p>
+              <ul class="tile_content--list">
+                <li class="tile_content--item">Dismantling of old coatings</li>
+                <li class="tile_content--item">Wallpapering</li>
+                <li class="tile_content--item">Painting walls and ceilings</li>
+                <li class="tile_content--item">Laying flooring</li>
+                <li class="tile_content--item">Replacing plumbing</li>
+                <li class="tile_content--item">Replacing sockets and switches</li>
+                <li class="tile_content--item">Replacing door</li>    
+              </ul>
+              <p class="tile_content--footer tile_content--footer-narrow"">From 1800 RUB/M2</p>
             </div>
-            <div class="section_address--map">
-                <img src='assets/images/map.png'>
+          </div>
+          <div class="tile">
+            <img src='assets/images/lamp.png' class="tile--image scalable" alt="lamp">
+            <img src='assets/images/lamp_mobile.png' class="tile--image-mobile" alt="lamp">
+            <div class="tile_content">
+              <p class="tile_content--header">Designer Repair</p>
+              <ul class="tile_content--list">
+                <li class="tile_content--item">Dismantling of old coatings</li>
+                <li class="tile_content--item">Wallpapering</li>
+                <li class="tile_content--item">Painting walls and ceilings</li>
+                <li class="tile_content--item">Laying flooring</li>
+                <li class="tile_content--item">Replacing plumbing</li>
+                <li class="tile_content--item">Replacing sockets and switches</li>
+                <li class="tile_content--item">Replacing door</li>      
+              </ul>
+              <p class="tile_content--footer tile_content--footer-narrow"">From 4000 RUB/M2</p>    
             </div>
-        </section>
+          </div>
+        </div>  
+      </section>
+      <section class="section section_request">  
+        <div class="section_request--image"> 
+          <div class="circle"></div>
+          <div class="circle_item circle_item-first">01</div>
+          <div class="circle_item circle_item-second">02</div>
+          <div class="circle_item circle_item-third">03</div>
+          <div class="circle_item circle_item-fourth">04</div>
+        </div>
+        <div class="form_wrapper">
+          <form action="" method="post" class="form">
+            <p class="form--header">Leave a request for free departure of the measurer</p>
+            <div class="form--field">
+              <label class="form--label">Name</label>
+              <input class="form--input" type="text" required pattern='/^[a-zA-Z]+(([',. -][a-zA-Z ])?[a-zA-Z]*)*$/g' placeholder="What is your name:">
+            </div>
+            <div class="form--field">
+              <label class="form--label">Phone</label>
+              <input class="form--input" type="tel" required pattern='[\+]\d{11}' placeholder="Your phone number:">
+            </div>
+            <div class="form--field">
+              <label class="form--label">Email</label>
+              <input class="form--input" type="email" required placeholder="Your e-mail:">
+            </div>
+            <div class="form--checkbox">
+              <label class="check">
+                <input class="check_input" type="checkbox" checked required>
+                <span class="checkbox"></span>
+                I agree to the processing of personal data
+              </label>
+            </div>
+            <button type="submit"  class="button form--button">Call the measurer</button>
+          </form>
+          <div class="savings_icon"></div>
+        </div>
+      </section>
+      <section class="section section_fantasies-mobile">
+        <div class="slider">
+          <div class="slider_header">
+            <h2 class="slider_header--header">We realize your <br> wildest fantasies</h2>
+          </div>
+          <div class="slider--controls section_projects_slider_controls">
+            <a class="slider--control slider--control-prev" href="#" role="button">
+              <svg width="42" height="14" viewBox="0 0 42 14" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M6.63807 13.6019L2.29917e-05 6.96389L6.63807 0.325844L7.58563 1.27341L1.89516 6.96389L7.58563 12.6544L6.63807 13.6019Z"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.947579 6.29396L41.4556 6.29397L41.4556 7.63403L0.947578 7.63403L0.947579 6.29396Z"/>
+              </svg>
+            </a>
+            <ol class="slider--indicators">
+              <li class="slider--indicator slider--indicator-active" data-slide-to="0"></li>
+              <li class="slider--indicator" data-slide-to="1"></li>
+              <li class="slider--indicator" data-slide-to="2"></li>
+            </ol>
+            <a class="slider--control slider--control-next" href="#" role="button">
+              <svg width="42" height="14" viewBox="0 0 42 14" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M35.362 0.325806L42 6.96385L35.362 13.6019L34.4144 12.6543L40.1049 6.96385L34.4144 1.27337L35.362 0.325806Z"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M41.0524 7.63364L0.544433 7.63364L0.544434 6.29358L41.0524 6.29358L41.0524 7.63364Z"/>
+              </svg>        
+            </a>
+          </div>
+          <div class="slider--items">
+            <div class="slider_play slider_play-mobile slider_play-mobile-left">
+              <svg class="slider_play--svg" width="36" height="36" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="17.9999" cy="17.9999" r="18.0001" transform="rotate(-180 17.9999 17.9999)""/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5657 23.478L14.0869 17.9997L19.5657 12.5215L20.3478 13.3035L15.6511 17.9997L20.3478 22.696L19.5657 23.478Z" fill="white" stroke="white" stroke-width="0.75"/>
+              </svg>                
+            </div>
+            <div class="slider_play slider_play-mobile slider_play-mobile-right">
+              <svg class="slider_play--svg" width="36" height="36" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="18.0001" cy="18.0001" r="18.0001"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M16.4343 12.522L21.9131 18.0003L16.4343 23.4785L15.6522 22.6965L20.3489 18.0003L15.6522 13.304L16.4343 12.522Z" fill="white" stroke="white" stroke-width="0.75"/>
+              </svg>        
+            </div>
+            <div class="slider--item slider--item-active">
+              <img src='assets/images/clock_tablet.png' class="slider--image-tablet" alt="clock">
+              <img src='assets/images/clock_mobile.png' class="slider--image-mobile" alt="clock">
+            </div>
+            <div class="slider--item">    
+              <img src='assets/images/clock_mobile.png' class="slider--image-mobile" alt="clock">
+            </div>
+          </div>    
+        </div>
+      </section> 
+      <section class="section section_fantasies">
+        <div class="fantasies_wrapper">
+          <div class="fantasies_content">
+            <p class="section_header section_fantasies--header">We realize your <br> wildest fantasies</p>
+            <ul class="fant_list">
+              <li class="fant_list--item"><a class="fant_list--link fant_list--link-active">American classic</a></li>
+              <li class="fant_list--item"><a class="fant_list--link">Empire</a></li>
+              <li class="fant_list--item"><a class="fant_list--link">Classical</a></li>
+              <li class="fant_list--item"><a class="fant_list--link">Loft</a></li>
+              <li class="fant_list--item"><a class="fant_list--link">Minimalism</a></li>
+              <li class="fant_list--item"><a class="fant_list--link">Provence</a></li>
+              <li class="fant_list--item"><a class="fant_list--link">Romanticism</a></li>  
+              <li class="fant_list--item"><a class="fant_list--link">Scandinavian Style</a></li>  
+              <li class="fant_list--item"><a class="fant_list--link">Mediterranean style</a></li>  
+              <li class="fant_list--item"><a class="fant_list--link">High Tech</a></li>  
+              <li class="fant_list--item"><a class="fant_list--link">Eclecticism</a></li>      
+            </ul>
+          </div>
+          <div class="fantasies_images_left">
+            <img src='assets/images/clock.png' class="fantasies_image_left_top" alt="clock">
+            <img src='assets/images/tv.png' class="fantasies_image_left_bottom" alt="tv">
+          </div>
+          <div class="fantasies_images_right">
+            <img src='assets/images/sofa.png' class="fantasies_image_right_top" alt="sofa">
+            <img src='assets/images/table.png' class="fantasies_image_right_bottom" alt="table">
+          </div>
+        </div>
+      </section>
+      <section  class="section section_design">
+        <h3 class="section_header section_design--header">design project</h3>
+        <img src='assets/icons/pencil.svg' class="section_design--icon" alt="pencil_icon">
+        <p class="section_content section_design--content">Design project not only helps to make the repair of your apartment more modern, <br> but also significantly reduces the cost of materials and reduces the time of repair work.</p>
+        <div class="tiles_block section_design--tiles">
+          <div class="tile">
+            <img src='assets/images/wall_dark.png' class="tile--image scalable" alt="wall">
+            <img src='assets/images/wall_dark_mobile.png' class="tile--image-mobile" alt="wall">
+            <div class="tile_content">
+              <p class="tile_content--header">Mini</p>
+              <ul class="tile_content--list">
+                <li class="tile_content--item">Measurement drawing</li>
+                <li class="tile_content--item">Redevelopment</li>
+                <li class="tile_content--item">Layout of furniture</li>
+                <li class="tile_content--item">Plumbing plan. equipment</li>   
+              </ul>
+              <p class="tile_content--footer tile_content--footer-narrow"">150 RUB/M2</p>
+            </div>
+          </div>
+          <div  class="tile">
+            <img src='assets/images/lamp_dark.png' class="tile--image scalable" alt="lamp">
+            <img src='assets/images/lamp_dark_mobile.png' class="tile--image-mobile" alt="lamp">
+            <div class="tile_content">
+              <p class="tile_content--header">Standard</p>
+              <ul class="tile_content--list">
+                <li class="tile_content--item">Measurement drawing</li>
+                <li class="tile_content--item">Redevelopment</li>
+                <li class="tile_content--item">Layout of furniture</li>
+                <li class="tile_content--item">Plan of ceilings</li>
+                <li class="tile_content--item">Floor Plan</li>
+                <li class="tile_content--item">Electricians plan</li>
+                <li class="tile_content--item">Lighting plan</li>    
+              </ul>
+              <p class="tile_content--footer tile_content--footer-narrow"">400 RUB/M2</p>
+            </div>
+          </div>
+          <div  class="tile">
+            <img src='assets/images/room_dark.png' class="tile--image scalable" alt="room">
+            <img src='assets/images/room_dark_mobile.png' class="tile--image-mobile" alt="room">
+            <div class="tile_content">
+              <p class="tile_content--header">Full</p>
+              <ul class="tile_content--list tile_content--list-desktop">
+                <li class="tile_content--item">Measurement drawing</li>
+                <li class="tile_content--item">Redevelopment</li>
+                <li class="tile_content--item">Layout of furniture</li>
+                <li class="tile_content--item">Plan of ceilings</li>
+                <li class="tile_content--item">Floor Plan</li>
+                <li class="tile_content--item">Electricians plan</li>
+                <li class="tile_content--item">Lighting plan</li>
+                <li class="tile_content--item">Wall reamers</li>
+                <li class="tile_content--item">3D visualization</li>
+                <li class="tile_content--item">Bill of materials</li>
+                <li class="tile_content--item">Departure for a selection of materials</li>
+                <li class="tile_content--item">Furniture selection</li>    
+              </ul>
+              <ul class="tile_content--list tile_content--list-mobile">
+                <li class="tile_content--item">Measurement drawing</li>
+                <li class="tile_content--item">Redevelopment</li>
+                <li class="tile_content--item">Layout of furniture</li>
+                <li class="tile_content--item">Plan of ceilings</li>
+                <li class="tile_content--item">Floor Plan</li>
+                <li class="tile_content--item">Electricians plan</li>
+                <li class="tile_content--item">Lighting plan...</li>
+              </ul>
+              <p class="tile_content--footer tile_content--footer-narrow"">900 RUB/M2</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section  class="section section_process">
+        <p class="section_process--header">How we are working</p>
+        <div class="slider_mod1">
+          <div class="slider_mod1_header">
+            <h2 class="slider_mod1_header--header">6 steps to the goal</h2>          
+          </div>
+          <div class="slider--controls section_process_slider_controls">
+            <a class="slider--control slider--control-prev" href="#" role="button">
+              <svg width="42" height="14" viewBox="0 0 42 14" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M6.63807 13.6019L2.29917e-05 6.96389L6.63807 0.325844L7.58563 1.27341L1.89516 6.96389L7.58563 12.6544L6.63807 13.6019Z"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.947579 6.29396L41.4556 6.29397L41.4556 7.63403L0.947578 7.63403L0.947579 6.29396Z"/>
+              </svg>
+            </a>
+            <ol class="slider--indicators">
+              <li class="slider--indicator slider--indicator-active" data-slide-to="0"></li>
+              <li class="slider--indicator" data-slide-to="1"></li>
+              <li class="slider--indicator" data-slide-to="2"></li>
+              <li class="slider--indicator" data-slide-to="3"></li>
+              <li class="slider--indicator" data-slide-to="4"></li>
+              <li class="slider--indicator" data-slide-to="5"></li>
+            </ol>
+            <a class="slider--control slider--control-next" href="#" role="button">
+              <svg width="42" height="14" viewBox="0 0 42 14" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M35.362 0.325806L42 6.96385L35.362 13.6019L34.4144 12.6543L40.1049 6.96385L34.4144 1.27337L35.362 0.325806Z"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M41.0524 7.63364L0.544433 7.63364L0.544434 6.29358L41.0524 6.29358L41.0524 7.63364Z"/>
+              </svg>  
+            </a>
+          </div>         
+          <div class="slider_mod1_descriptions">
+            <div class="slider_mod1_descriptions--number">1/6</div>
+            <div class="slider_mod1_descriptions--header">Departure for <br> measurements premises</div>
+            <p class="slider_mod1_descriptions--content">After your call, we go to you to consult and measure the premises of your apartment. During our meeting, you can ask absolutely any number of questions. An <br> appraiser-appraiser leaves to measure the room.</p>
+            <p class="slider_mod1_descriptions--content"> He will advise you on the issues of repair technology, apartment design, terms of repair of the apartment as a whole and its individual stages.</p>
+          </div>
+          <div class="slider_mod1_items_headings">
+            <div class="slider_mod1_items_heading  slider_mod1_items_heading-active">
+              <p class="slider_mod1_items_heading--head">01</p>
+              <p class="slider_mod1_items_heading--text">Departure to <br> room measurements</p>
+            </div>
+            <div class="slider_mod1_items_heading">
+              <p class="slider_mod1_items_heading--head">02</p>
+              <p class="slider_mod1_items_heading--text">Compilation <br> estimates</p>
+            </div>
+            <div class="slider_mod1_items_heading">
+              <p class="slider_mod1_items_heading--head">03</p>
+              <p class="slider_mod1_items_heading--text">Development <br>project design</p>
+            </div>
+            <div class="slider_mod1_items_heading">
+              <p class="slider_mod1_items_heading--head">04</p>
+              <p class="slider_mod1_items_heading--text">Purchasing Supplies</p>
+            </div>
+            <div class="slider_mod1_items_heading">
+              <p class="slider_mod1_items_heading--head">05</p>
+              <p class="slider_mod1_items_heading--text">Repair finishing work</p>
+            </div>
+            <div class="slider_mod1_items_heading">
+              <p class="slider_mod1_items_heading--head">06</p>
+              <p class="slider_mod1_items_heading--text">Приемка-сдача<br> работ</p>
+            </div>
+          </div>
+          <div class="slider--items">
+            <div class="slider--item slider--item-active">
+              <img src='assets/images/man.png' class="slider--image" alt="man">
+            </div>
+          </div>
+        </div>
+      </section>
+      <section  class="section section_team">
+        <h3 class="section_header section_team--header">Our Team</h3>
+        <img src='assets/icons/group.svg' class="section_team--icon" alt="group_icon">
+        <p class="section_content section_team--header_content">Our team has helped to become happier for more than 500 families and we are not going to stop</p>
+        <div class="tiles_block section_team--tiles">
+          <div  class="tile tile-centered">
+            <div class="tile_icon tile_icon-idea"></div>
+            <img src='assets/images/dmitry.png' class="tile--image scalable" alt="photo">
+            <img src='assets/images/dmitry_mobile.png' class="tile--image-mobile" alt="photo">
+            <div class="tile_content tile_content-adjusted tile_content-up">
+              <p class="tile_content--header tile_content--header-centered">Dmitry Tulyakov</p>
+              <ul class="tile_content--list tile_content--list-no_marks tile_content--list-centered">
+                <li class="tile_content--item tile_content--item-large">Project manager</li>
+              </ul>
+              <p class="tile_content--footer tile_content--footer-small">Work Experience 8 years</p>
+            </div>
+          </div>
+          <div  class="tile tile-centered">
+            <div class="tile_icon tile_icon-design"></div>
+            <img src='assets/images/larisa.png' class="tile--image scalable" alt="photo">
+            <img src='assets/images/larisa_mobile.png' class="tile--image-mobile" alt="photo">
+            <div class="tile_content tile_content-adjusted tile_content-up">
+              <p class="tile_content--header tile_content--header-centered">Larisa Kotlyarova</p>
+              <ul class="tile_content--list tile_content--list-no_marks tile_content--list-centered">
+                <li class="tile_content--item tile_content--item-large">Designer</li>
+              </ul>
+              <p class="tile_content--footer tile_content--footer-small">Work Experience 6 years</p>
+            </div>
+          </div>
+          <div  class="tile tile-centered">
+            <div class="tile_icon tile_icon-portfolio"></div>
+            <img src='assets/images/alexey.png' class="tile--image scalable" alt="photo">
+            <img src='assets/images/alexey_mobile.png' class="tile--image-mobile" alt="photo">
+            <div class="tile_content tile_content-adjusted tile_content-up">
+              <p class="tile_content--header tile_content--header-centered">Alexey Efimov</p>
+              <ul class="tile_content--list tile_content--list-no_marks tile_content--list-centered">
+                <li class="tile_content--item tile_content--item-large">Foreman</li>
+              </ul>
+              <p class="tile_content--footer tile_content--footer-small">Work Experience 12 years</p>
+            </div>
+          </div>
+        </div>
+        <img src='assets/icons/divider.svg' class="section_team--divider" alt="divider_icon">
+        <p class="section_content section_team--content">Each employee of our company is a qualified full-time specialist with work experience of 6 years. <br> We do not have laborers and guest workers, each employee carries out work corresponding to his specialty.</p>
+      </section>
+      <section  class="section section_clients">
+        <h3 class="section_header section_clients--header">our clients</h3>
+        <img src='assets/icons/handshake.svg' class="section_clients--icon" alt="handshake_icon">
+        <p class="section_content section_clients--content">80% of our customers recommend us to their friends and family.</p>
+        <div class="tiles_block section_clients--tiles">
+          <div class="tile">
+            <img src='assets/images/fedosova.png' class="section_clients--photo" alt="photo">
+            <div class="tile_content tile_content-client  tile_content-shadow">
+              <p class="tile_content--header tile_content--header-right">Fedosova Maria Konstantinovna</p>
+              <ul class="tile_content--list tile_content--list-no_marks">
+                <li class="tile_content--item">I want to thank the guys for their work. We put your shower part in repair. I am very grateful that I referred to the repair as to my own. Great thanks i express the project to georgia for its professionalism and approach. The repair process was turned out in terms, faster than anticipated. Team mobile and professional. Works performed qualitatively without comments. Quality satisfied. Prices democratic. I recommend these masters.</li>
+              </ul>
+              <div class="tile_content--footer tile_content--footer-medium">
+                <div class="area">40 M2</div>
+                <div class="divider"></div>
+                <div class="time">48 Days</div>
+              </div>
+            </div>
+          </div>
+          <div class="tile">
+            <img src='assets/images/afanasyev.png' class="section_clients--photo" alt="photo">
+            <div class="tile_content tile_content-client tile_content-shadow">
+              <p class="tile_content--header tile_content--header-right">Afanasyev Sergey Alexandrovich</p>
+              <ul class="tile_content--list tile_content--list-no_marks">
+                <li class="tile_content--item">I want to thank the guys for their work. We put your shower part in repair. I am very grateful that I referred to the repair as to my own. Great thanks i express the project to georgia for its professionalism and approach. The repair process was turned out in terms, faster than anticipated. Team mobile and professional. Works performed qualitatively without comments. Quality satisfied. Prices democratic. I recommend these masters.</li>
+              </ul>
+              <div class="tile_content--footer tile_content--footer-medium">
+                <div class="area">90 M2</div>
+                <div class="divider"></div>
+                <div class="time">128 Days</div>
+              </div>
+            </div>
+          </div>
+          <div class="tile">
+            <img src='assets/images/kiriev.png' class="section_clients--photo" alt="photo">
+            <div class="tile_content tile_content-client tile_content-shadow">
+              <p class="tile_content--header tile_content--header-right">Kiriev Egor <br> Leonidovich</p>
+              <ul class="tile_content--list tile_content--list-no_marks section_clients--tile_content_list">
+                <li class="tile_content--item">I want to thank the guys for their work. We put your shower part in repair. I am very grateful that I referred to the repair as to my own. Great thanks i express the project to georgia for its professionalism and approach. The repair process was turned out in terms, faster than anticipated. Team mobile and professional. Works performed qualitatively without comments. Quality satisfied. Prices democratic. I recommend these masters.</li>
+              </ul>
+              <div class="tile_content--footer tile_content--footer-medium">
+                <div class="area">56 M2</div>
+                <div class="divider"></div>
+                <div class="time">86 Days</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section  class="section section_question">
+        <form action="" method="post" class="form form-wide_centered form-lighter">
+          <p class="form--header form--header-uppercase">Have any questions?</p>
+          <div class="form_fields">
+            <div class="form--field">
+              <label class="form--label">Name</label>
+              <input class="form--input form--input-wide" type="text" required pattern='/^[a-zA-Z]+(([',. -][a-zA-Z ])?[a-zA-Z]*)*$/g' placeholder="What is your name:">
+            </div>
+            <div class="form--field">
+              <label class="form--label"</label>
+              <input class="form--input form--input-wide" type="tel" required pattern='[\+]\d{11}' placeholder="Your phone number:">
+            </div>
+          </div>
+          <div class="form--field form--field-left_aligned">
+            <label class="form--label">Question</label>
+            <input class="form--input" type="text" required placeholder="I want to know:">
+          </div> 
+          <div class="form--checkbox">
+            <label class="check">
+              <input class="check_input" type="checkbox" checked required>
+              <span class="checkbox"></span>
+              I agree to the processing of personal data
+            </label>
+          </div>
+          <button type="submit"  class="button form--button form--button-centered">Submit</button>
+        </form>
+      </section>
+      <section  class="section section_address">
+        <div class="section_address--map-mobile">
+          <img src='assets/images/map_mobile.png' alt="map">
+        </div>
+        <address class="section_address--content">Rostov-on-Don, Nansen St., 239 Shopping Center Decorum</address>
+        <a class="section_address--content section_address--tel"href="tel:+79287683239">Tel. +7 (928) 768 32 29</a>
+        <div class="section_address_icons section_address_icons-desktop">
+          <svg class="section_address--icon" width="28" height="29" viewBox="0 0 28 29" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="14" cy="14.1943" r="14"/>
+            <path d="M8.4 8.99414H19.6C20.37 8.99414 21 9.62414 21 10.3941V18.7941C21 19.5641 20.37 20.1941 19.6 20.1941H8.4C7.63 20.1941 7 19.5641 7 18.7941V10.3941C7 9.62414 7.63 8.99414 8.4 8.99414Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M21 10.3945L14 15.2945L7 10.3945" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>  
+          <svg class="section_address--icon" width="28" height="29" viewBox="0 0 28 29" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="14" cy="14.1943" r="14"/>
+            <path d="M17 8.59375H11C9.34316 8.59375 8.00001 9.9369 8.00001 11.5938V17.5938C8.00001 19.2506 9.34316 20.5938 11 20.5938H17C18.6569 20.5938 20 19.2506 20 17.5938V11.5938C20 9.9369 18.6569 8.59375 17 8.59375Z" stroke="white" stroke-width="1.5"/>
+            <path d="M16.4 14.2159C16.4741 14.7153 16.3888 15.2253 16.1563 15.6733C15.9238 16.1214 15.5559 16.4848 15.105 16.7117C14.6541 16.9387 14.1431 17.0177 13.6447 16.9375C13.1463 16.8573 12.6859 16.622 12.3289 16.265C11.972 15.9081 11.7367 15.4477 11.6565 14.9493C11.5763 14.4509 11.6553 13.9399 11.8822 13.489C12.1092 13.038 12.4725 12.6702 12.9206 12.4377C13.3687 12.2052 13.8787 12.1199 14.378 12.1939C14.8874 12.2695 15.3589 12.5068 15.723 12.8709C16.0872 13.235 16.3245 13.7066 16.4 14.2159Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <div class="section_address_icons section_address_icons-mobile">
+          <svg class="section_address--icon" width="39" height="39" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="19.5" cy="19.4998" r="19.5"/>
+            <path d="M11.7002 12.2566H27.3002C28.3727 12.2566 29.2502 13.1341 29.2502 14.2066V25.9066C29.2502 26.9791 28.3727 27.8566 27.3002 27.8566H11.7002C10.6277 27.8566 9.75024 26.9791 9.75024 25.9066V14.2066C9.75024 13.1341 10.6277 12.2566 11.7002 12.2566Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M29.2502 14.2073L19.5002 21.0323L9.75024 14.2073" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg> 
+          <svg class="section_address--icon" width="40" height="39" viewBox="0 0 40 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="20.3929" cy="19.4998" r="19.5"/>
+            <path d="M24.5714 11.699H16.2142C13.9065 11.699 12.0356 13.5698 12.0356 15.8775V24.2347C12.0356 26.5424 13.9065 28.4133 16.2142 28.4133H24.5714C26.8791 28.4133 28.7499 26.5424 28.7499 24.2347V15.8775C28.7499 13.5698 26.8791 11.699 24.5714 11.699Z" stroke="white" stroke-width="1.5"/>
+            <path d="M23.7356 19.5298C23.8388 20.2253 23.72 20.9356 23.3961 21.5597C23.0723 22.1838 22.5599 22.6899 21.9318 23.0061C21.3038 23.3222 20.592 23.4322 19.8978 23.3205C19.2036 23.2088 18.5623 22.881 18.0652 22.3839C17.568 21.8867 17.2402 21.2454 17.1285 20.5512C17.0168 19.857 17.1268 19.1452 17.443 18.5172C17.7591 17.8891 18.2652 17.3767 18.8893 17.0529C19.5134 16.7291 20.2237 16.6103 20.9193 16.7134C21.6287 16.8186 22.2855 17.1492 22.7927 17.6563C23.2998 18.1635 23.6304 18.8203 23.7356 19.5298Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <div class="section_address--map">
+          <img src='assets/images/map.png' alt="map">
+        </div>
+      </section>
     </main>
     <footer class="footer">
-        <div class="footer--logo">IC "Repair Design Project"</div>
-        <nav class="navbar">
-            <ul class="navbar_list">
-                <li class="navbar_list--item"><a class="navbar_list--link">Home</a></li>
-                <li class="navbar_list--item"><a class="navbar_list--link">Projects</a></li>
-                <li class="navbar_list--item"><a class="navbar_list--link">Measurement</a></li>
-                <li class="navbar_list--item"><a class="navbar_list--link">Team</a></li>
-                <li class="navbar_list--item"><a class="navbar_list--link">Reviews</a></li>
-                <li class="navbar_list--item"><a class="navbar_list--link">Contacts</a></li>    
-            </ul>
-        </nav>
-        <div class="phone_number"><a class="phone_number--link" >+7(928)768-32-39</a></div>
-        <button type="button" class="button footer--button">Request A Call</button>
+      <div class="footer--logo">IC "Repair Design Project"</div>
+      <nav class="navbar">
+        <ul class="navbar_list">
+          <li class="navbar_list--item"><a class="navbar_list--link">Home</a></li>
+          <li class="navbar_list--item"><a class="navbar_list--link">Projects</a></li>
+          <li class="navbar_list--item"><a class="navbar_list--link">Measurement</a></li>
+          <li class="navbar_list--item"><a class="navbar_list--link">Team</a></li>
+          <li class="navbar_list--item"><a class="navbar_list--link">Reviews</a></li>
+          <li class="navbar_list--item"><a class="navbar_list--link">Contacts</a></li>    
+        </ul>
+      </nav>
+      <div class="phone_number">
+        <a class="phone_number--link" href="tel:+79287683239">+7(928)768-32-39</a>
+      </div>
+      <button type="button" class="button footer--button">Request A Call</button>
     </footer>
-
-</div>
+  </div>
 </body>
 </html>
