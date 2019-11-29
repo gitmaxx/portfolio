@@ -1,91 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-    rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+  rel="stylesheet">
 </head>
 <body>
- <header class="header section">
+  <header class="header section">
     <div class="header_grid">
-        <img src="assets/images/photo.jpg" class="header--photo">
-        <img src="assets/images/photomobile.jpg" class="header--photo header--photo-mobile">
-        <h1 class="header--name">Akulinichev Maxim</h1>
-        <div class="header--github_link" ><a href="https://github.com/gitmaxx" class="sn_name">Github</a></div>
-        <div class="header--facebook_link"><a href="https://www.facebook.com/maksim.akulinichev" class="sn_name">Facebook</a></div>
+      <img src="assets/images/photo.jpg" class="header--photo" alt="photo">
+      <img src="assets/images/photomobile.jpg" class="header--photo header--photo-mobile" alt="photo">
+      <h1 class="header--name">Akulinichev Maxim</h1>
+      <div class="header--github_link" >
+        <a href="https://github.com/gitmaxx" class="sn_name">Github</a>
+      </div>
+      <div class="header--facebook_link">
+        <a href="https://www.facebook.com/maksim.akulinichev" class="sn_name">Facebook</a>
+      </div>
     </div>
- </header>
- <main>
-
-        <div class="panel section">
-                
-                <details>
-                    <summary>
-                           <h2 class="titlename">Education</h2>
-                    </summary>
-                    <div class="content">
-                        <ul class="education_list">
-                            <li class="education_item">Moscow State University</li>
-                            <li class="education_item">Rolling Scopes School</li>
-                        </ul>
-                        
-                    </div>
-                </details> 
-        </div>  
-
+  </header>
+  <main>
+    <div class="panel section">
+      <details>
+        <summary>
+          <h2 class="titlename">Education</h2>
+        </summary>
+        <div class="content">
+          <ul class="education_list">
+            <li class="education_item">Moscow State University</li>
+            <li class="education_item">Rolling Scopes School</li>
+          </ul>
+        </div>
+      </details> 
+    </div>  
     <div class="description_control">
-        <p class="description_control--text">Show description</p>
-        <img class="description_control--image" src="assets/images/icon.png"></img>
+      <p class="description_control--text">Show description</p>
+      <img class="description_control--image" src="assets/images/icon.png" alt="icon">
     </div>   
     <div class="slider section">
-        <div class="control_panel control_panel-left">
-            <div class="direction_pointer">&lt;</div>
-        </div>
-        <div class="slides_wrapper">
-            <div class="slide slide-active" id="1">
-                <div class="slide_wrapper">
-                    <div class="slide_description">
-                        <p class="slide_description--header">theyalow</p>
-                        <ul class="slide_description--list">
-                                <li class="slide_description--item">Two display resolutions</li>
-                                <li class="slide_description--item">Pixel-perfect layout</li>
-                        </ul> 
-                    </div>
-                    <div class="slide_image">
-                        <img class="image" src="assets/images/yalow.png" alt="project">
-                        <img class="image image--mobile image--mobile-active" src="assets/images/yalowmobile.png" alt="project">
-                    </div>
-                </div>
+      <div class="control_panel control_panel-left">
+        <div class="direction_pointer">&lt;</div>
+      </div>
+      <div class="slides_wrapper">
+        <div class="slide slide-active" id="1">
+          <div class="slide_wrapper">
+            <div class="slide_description">
+              <p class="slide_description--header">theyalow</p>
+              <ul class="slide_description--list">
+                <li class="slide_description--item">Two display resolutions</li>
+                <li class="slide_description--item">Pixel-perfect layout</li>
+              </ul> 
             </div>
-       
-            <div class="slide" id="2">
-                <div class="slide_wrapper">
-                    <div class="slide_description ">
-                        <p class="slide_description--header">repair-design-project</p>
-                        <ul class="slide_description--list">
-                            <li class="slide_description--item">Responsive layout</li>
-                            <li class="slide_description--item">4 media-queries</li>
-                        </ul>
-                    </div>
-                    <div class="slide_image">
-                        <img class="image" src="assets/images/repair.png" alt="project">
-                        <img class="image image--mobile image--mobile-active" src="assets/images/repairmobile.png" alt="project">
-                    </div>
-                </div>
+            <div class="slide_image">
+              <img class="image" src="assets/images/yalow.png" alt="project">
+              <img class="image image--mobile image--mobile-active" src="assets/images/yalowmobile.png" alt="project">
             </div>
+          </div>
         </div>
-        <div class="control_panel control_panel-right">
-            <div class="direction_pointer">&gt;</div>
+        <div class="slide" id="2">
+          <div class="slide_wrapper">
+            <div class="slide_description">
+              <p class="slide_description--header">repair-design-project</p>
+                <ul class="slide_description--list">
+                  <li class="slide_description--item">Responsive layout</li>
+                  <li class="slide_description--item">4 media-queries</li>
+                </ul>
+            </div>
+            <div class="slide_image">
+              <img class="image" src="assets/images/repair.png" alt="project">
+              <img class="image image--mobile image--mobile-active" src="assets/images/repairmobile.png" alt="project">
+            </div>
+          </div>
         </div>
+      </div>
+      <div class="control_panel control_panel-right">
+        <div class="direction_pointer">&gt;</div>
+      </div>
     </div>
-   
-
- </main>
-
- <script src="script.js"></script>
+  </main>
+  <script src="script.js"></script>
 </body>
 </html>
