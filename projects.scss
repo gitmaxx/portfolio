@@ -1,83 +1,69 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .button {
-    display:block;
-    background-color: white;
-    width: 100px;
-    height: 40px;
-    font-size: 24px;
-    text-align: center;
-    border: 1px solid black;
-    position: fixed;
-    right: 100px;
-    &-device {
-        bottom:120px;
-    }
-    &-back {
-        bottom:60px;
-    }
-    &-hidden {
-        display:none;
-    }
+  display:block;
+  background-color: white;
+  width: 100px;
+  height: 40px;
+  font-size: 24px;
+  text-align: center;
+  border: 1px solid black;
+  position: fixed;
+  right: 100px;
+  &-device {
+    bottom: 120px;
+  }
+  &-back {
+    bottom: 60px;
+  }
+  &-hidden {
+    display: none;
+  }
 }
 
 .wrapper {
-    position: relative;
-    display: flex;
-    max-width: 1444px;
-    margin:0 auto;
+  position: relative;
+  display: flex;
+  max-width: 1444px;
+  margin: 0 auto;
     
 }
 
 .frame {
-
-    margin:0 auto;
-    overflow: hidden;
+  margin: 0 auto;
+  overflow: hidden;
 }
-
-
 
 .button-to_mobile_375 {
-    right: 20% 
+  right: 20% 
 }
-
 
 .button-to_mobile_640 {
-    right: 20%;
+  right: 20%;
 }
-
 
 @media (max-width: 414px) {
+  .wrapper { 
+    max-width: 375px;  
+  }
 
-    .wrapper {
-        
-        max-width: 375px;
-       
-        
-    }
-
-.button-device {
+  .button-device {
     display: none;
-}
+  }
 
-
-.button {
-   
+  .button {
     width: 60px;
     height: 30px;
     font-size: 16px;
     right: 30px;
     &-back {
-        bottom:30px;
+      bottom:b30px;
     }
-  
+  }
 
-
-}
-
-.frame {
+  .frame {
     overflow: scroll;
-}
+  }
 }
