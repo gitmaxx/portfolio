@@ -325,6 +325,84 @@ summary::after {
   width: 6%;
 }
 
+@media (max-width: 1024px) {
+  .slide_wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .slide_description {
+    padding: 0 20px 0 20px;
+  }
+  .slide_description--header {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 10px 0 10px 0;
+  }
+  .slide_description--list {
+    padding-left: 20px;
+  }
+  .slide_description--item {
+    font-size: 20px;
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .header--name {
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
+    grid-area: name;
+    margin-top: 15px;
+    font-size: 18px;
+  }
+  .header--github_link {
+    font-size: 16px;
+  }
+  .header--facebook_link {
+    font-size: 16px;
+  }
+  .header--photo {
+    display: none;
+  }
+  .header--photo-mobile {
+    display: block;
+  }
+  .titlename {
+    font-size: 16px;
+    margin: 0.3em 0 0.3em 0;
+  }
+  .education_list {
+    margin: 10px 0 10px 0;
+  }
+  .education_item {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  details div.content {
+    padding: 0px 12px 12px 12px;
+  }
+  summary {
+    padding: 10px 10px;
+  }
+  .header_grid {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: 'photo name' 'photo github' 'photo links';
+    -ms-grid-rows: 45px 45px 45px;
+        grid-template-rows: 45px 45px 45px;
+    -ms-grid-columns: 110px auto;
+        grid-template-columns: 110px auto;
+    -webkit-column-gap: 10px;
+            column-gap: 10px;
+    margin-top: 5px;
+  }
+}
+
 @media (max-width: 414px) {
   .image {
     display: none;
@@ -413,84 +491,6 @@ summary::after {
   }
   .header--photo-mobile {
     display: block;
-  }
-}
-
-@media (max-width: 1024px) {
-  .slide_wrapper {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .slide_description {
-    padding: 0 20px 0 20px;
-  }
-  .slide_description--header {
-    font-size: 24px;
-    font-weight: 500;
-    margin: 10px 0 10px 0;
-  }
-  .slide_description--list {
-    padding-left: 20px;
-  }
-  .slide_description--item {
-    font-size: 20px;
-    margin-bottom: 0.5rem;
-  }
-}
-
-@media (max-width: 640px) {
-  .header--name {
-    -ms-grid-row: 1;
-    -ms-grid-column: 2;
-    grid-area: name;
-    margin-top: 15px;
-    font-size: 18px;
-  }
-  .header--github_link {
-    font-size: 16px;
-  }
-  .header--facebook_link {
-    font-size: 16px;
-  }
-  .header--photo {
-    display: none;
-  }
-  .header--photo-mobile {
-    display: block;
-  }
-  .titlename {
-    font-size: 16px;
-    margin: 0.3em 0 0.3em 0;
-  }
-  .education_list {
-    margin: 10px 0 10px 0;
-  }
-  .education_item {
-    font-size: 1rem;
-    margin-bottom: 0.5rem;
-  }
-  details div.content {
-    padding: 0px 12px 12px 12px;
-  }
-  summary {
-    padding: 10px 10px;
-  }
-  .header_grid {
-    display: -ms-grid;
-    display: grid;
-        grid-template-areas: 'photo name' 'photo github' 'photo links';
-    -ms-grid-rows: 45px 45px 45px;
-        grid-template-rows: 45px 45px 45px;
-    -ms-grid-columns: 110px auto;
-        grid-template-columns: 110px auto;
-    -webkit-column-gap: 10px;
-            column-gap: 10px;
-    margin-top: 5px;
   }
 }
 /*# sourceMappingURL=style.css.map */
